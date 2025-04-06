@@ -50,7 +50,7 @@ io.on('connection', (socket) => {
     });
   
     socket.on("list", () => {
-        socket.emit("list", listaUtenti);
+        socket.emit("lista", listaUtenti);
       });
       
   
